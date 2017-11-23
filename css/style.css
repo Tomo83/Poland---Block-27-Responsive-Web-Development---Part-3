@@ -1,0 +1,157 @@
+/*my styles*/
+
+img {
+    max-width: 100% !important;
+}
+
+.modal-title {
+    color: #265884;
+}
+
+.bg-dark {
+    background: -moz-linear-gradient(top, rgba(69, 72, 77, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(69, 72, 77, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(69, 72, 77, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.bg-dark-container {
+    background-color: #000;
+}
+
+.navbar-brand {
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: .3rem;
+    padding: .3rem;
+}
+
+ul.list-unstyled {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list-unstyled li {
+    padding: .5rem;
+}
+
+.list-unstyled a {
+    color: #A7A7A7;
+    padding: .5rem;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.list-unstyled a:hover {
+    color: #265884;
+}
+
+.list-unstyled .active {
+    color: #265884;
+}
+
+.pos-f-t i {
+    color: #A7A7A7;
+    font-size: 2rem !important;
+    margin: .5rem;
+    transition: .3s;
+}
+
+.pos-f-t i:hover {
+    color: #265884;
+}
+
+#features .card {
+    margin: 1rem;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, .5);
+}
+
+#features .card-header {
+    text-align: center;
+}
+
+#features i {
+    font-size: 5rem;
+    color: #265884;
+}
+
+#about h2 {
+    margin: 3rem 0;
+}
+
+#about p {
+    margin: 2rem 0;
+}
+
+#about img {
+    width: 15rem;
+    display: block;
+    margin: 3rem auto 1rem auto;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, .5);
+}
+
+#skills .col-12 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#skills h2,
+#portfolio h2,
+#contact h2 {
+    margin-top: 3rem;
+}
+
+#skills i {
+    font-size: 5rem;
+    color: #265884;
+    margin: 2rem;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#skills i:hover {
+    color: #A7A7A7;
+}
+
+.icons-margin {
+    margin: 4rem 0;
+}
+
+.card {
+    margin: 3rem 1rem;
+}
+
+#contact form {
+    margin-top: 2rem;
+}
+
+#contact button {
+    margin-bottom: 2rem;
+}
+
+#map {
+    height: 320px;
+    width: 100%;
+}
+
+.location {
+    margin: 1rem;
+}
+
+footer {
+    background-color: #000;
+}
+
+footer .col-12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    margin-bottom: 0;
+    padding: .9rem 0;
+    color: #A7A7A7;
+}

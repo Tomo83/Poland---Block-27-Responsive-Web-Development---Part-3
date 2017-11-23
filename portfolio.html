@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Tomasz Kurzacz - Junior Front-End Developer</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!--my styles-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+    <style>
+@media screen and (max-width:500px) {
+    #banner {
+        background: url(images/banner-1920x1440-500_small.jpg) center center no-repeat;
+        background-size: cover;
+        height: 15rem;
+    }   
+    .jumbotron {
+        margin-top: 2rem;
+        height: 70%;
+        background-color: rgba(0, 0, 0, .7);
+        color: #fff;
+        text-align: center;
+    }
+}
+        
+@media screen and (max-width: 828px) {
+    .pos-f-t .list-unstyled {
+        display: block;
+    }
+}
+
+@media screen and (min-width:500px) and (max-width:800px) {
+    #banner {
+        background: url(images/banner-1920x1440-800_medium.jpg) center center no-repeat;
+        background-size: cover;
+        height: 15rem;
+    }   
+    .jumbotron {
+        margin-top: 2rem;
+        height: 70%;
+        background-color: rgba(0, 0, 0, .7);
+        color: #fff;
+        text-align: center;
+    }
+}
+        
+@media screen and (min-width:801px) and (max-width:1200px) {
+    #banner {
+        background: url(images/banner-1920x1440-1200_large_2x.jpg) center center no-repeat;
+        background-size: cover;
+        height: 15rem;
+    }   
+    .jumbotron {
+        margin-top: 2rem;
+        height: 70%;
+        background-color: rgba(0, 0, 0, .7);
+        color: #fff;
+        text-align: center;
+    }
+}
+        
+@media screen and (min-width: 1201px) {
+    #banner {
+        background: url(images/banner-1920x1440-1900_xlarge_3x.jpg) center center no-repeat;
+        background-size: cover;
+        height: 15rem;
+    } 
+        .jumbotron {
+        margin-top: 2rem;
+        height: 70%;
+        background-color: rgba(0, 0, 0, .7);
+        color: #fff;
+        text-align: center;
+    }
+}
+    </style>
+  </head>
+  <body>
+   <!--navigation-->
+    <div class="pos-f-t">
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark-container p-4">
+            <div class="row">
+                <div class="col-6">
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="skills.html">Skills</a></li>
+                        <li><a class="active" href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div><!--/col-6-->
+                <div class="col-6 d-flex flex-row-reverse">
+                    <a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-google-plus-square" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-behance-square" aria-hidden="true"></i></a>
+                </div><!--/col-6-->
+            </div>
+        </div>
+      </div>
+      <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <img src="images/Logo_Tomek_2016.svg" width="40" alt="logo">
+        </a>
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav>
+    </div>
+    <!--banner-->
+    <section id="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="jumbotron">
+                      <h1 class="display-7">Portfolio</h1>
+                      <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--portfolio-->
+    <section id="portfolio">
+        <div class="container">
+           <div class="row">
+               <div class="col-12">
+                   <h2 class="text-center">Projects I have coded so far</h2>
+               </div>
+           </div>
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <div class="card">
+                      <img class="card-img-top" class="img-thumbnail" src="images/project1.jpg" alt="project photo">
+                      <div class="card-body">
+                        <h4 class="card-title">Fungus Combo Website</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="http://funguscombo.pl" target="_blank" class="btn btn-primary">Live Demo</a>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card">
+                      <img class="card-img-top" class="img-thumbnail" src="images/project3.jpg" alt="project photo">
+                      <div class="card-body">
+                        <h4 class="card-title">Weather App</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="https://tomo83.github.io/Poland---Block-11-Interactive-Website-using-JS---Weather-App/" target="_blank" class="btn btn-primary">Live Demo</a>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card">
+                      <img class="card-img-top" class="img-thumbnail" src="images/project2.jpg" alt="project photo">
+                      <div class="card-body">
+                        <h4 class="card-title">To-Do List</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="https://tomo83.github.io/Poland---Block-19/" target="_blank" class="btn btn-primary">Live Demo</a>
+                      </div>
+                    </div>
+                </div><!--/col-4-->
+                <div class="col-12">
+                    <p class="lead text-center">
+If you want more just visit my <a href="https://github.com/Tomo83" target="_blank">github</a></p>
+                </div>
+            </div><!--/row-->
+        </div><!--/container-->
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p>Copyrights &copy; 2017 - coding by Tomo83</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
