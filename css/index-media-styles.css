@@ -1,0 +1,63 @@
+@media screen and (min-width: 1201px) {
+    html {
+        background: url(../images/banner-1920x1440-1900_xlarge_3x.jpg) center center no-repeat fixed;
+        background-size: cover;
+
+    } 
+        .jumbotron {
+        margin-top: 4rem;
+        background-color: rgba(0, 0, 0, .7);
+        color: #fff;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:801px) and (max-width:1200px) {
+    html {
+        background: url(../images/banner-1920x1440-1200_large_2x.jpg) center center no-repeat fixed;
+        background-size: cover;
+
+    }   
+    .jumbotron {
+        margin-top: 4rem;
+        background-color: rgba(0, 0, 0, .7);
+        color: #fff;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 828px) {
+    .pos-f-t .list-unstyled {
+        display: block;
+    }
+}
+
+@media screen and (min-width:500px) and (max-width:800px) {
+    html {
+        background: url(../images/banner-1920x1440-800_medium.jpg) center center no-repeat fixed;
+        background-size: cover;
+
+    }   
+    .jumbotron {
+        margin-top: 4rem;
+        background-color: rgba(0, 0, 0, .7);
+        color: #fff;
+        text-align: center;
+    }
+}
+
+
+
+@media screen and (max-width:500px) {
+    html {
+        background: url(../images/banner-1920x1440-500_small.jpg) center center no-repeat fixed;
+        background-size: cover;
+
+    }   
+    .jumbotron {
+        margin-top: 2rem;
+        background-color: rgba(0, 0, 0, .7);
+        color: #fff;
+        text-align: center;
+    }
+}
